@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Concert Archive</title>
+
+  <title>Concert Memories</title>
+
   <link rel="icon" type="image/jpeg" href="icon.JPG">
 
   <style>
@@ -15,33 +17,48 @@
     }
 
     h1 {
-      font-size: 48px;
+      font-size: 52px;
       margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 18px;
     }
 
     .concert {
       background: #f4f9ff;
-      padding: 20px;
-      border-radius: 15px;
-      margin-top: 20px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      padding: 25px;
+      border-radius: 18px;
+      margin-top: 30px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     }
 
     h2 {
       margin-bottom: 5px;
+      font-size: 30px;
     }
 
     .date {
       color: #666;
       margin-bottom: 20px;
+      font-size: 16px;
+    }
+
+    .concert-photo {
+      width: 100%;
+      max-width: 700px;
+      border-radius: 15px;
+      margin-top: 10px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     }
 
     .song {
-      margin-top: 15px;
+      margin-top: 22px;
     }
 
     .song-title {
-      font-size: 18px;
+      font-size: 20px;
       font-weight: bold;
       margin-bottom: 10px;
     }
@@ -55,24 +72,24 @@
 
 <body>
 
-  <h1>My Concert Archive</h1>
+  <h1>Concert Memories</h1>
 
   <p>
-    A small collection of concert nights and memories.
+    Songs, memories, and nights I never want to forget.
   </p>
 
   <div class="concert">
+
     <h2>Lady Gaga — London 2025</h2>
 
 
-    
+    <img src="gaga_london.JPG" class="concert-photo">
 
     <div class="song">
       <p class="song-title">Speechless</p>
 
       <audio controls>
         <source src="gaga_speechless.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
       </audio>
     </div>
 
@@ -81,16 +98,14 @@
 
       <audio controls>
         <source src="gaga_perfect_celebrity.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
       </audio>
     </div>
-    
+
     <div class="song">
       <p class="song-title">Million Reasons</p>
 
       <audio controls>
         <source src="gaga_million_reasons.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
       </audio>
     </div>
 
@@ -99,7 +114,6 @@
 
       <audio controls>
         <source src="gaga_paparazzi.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
       </audio>
     </div>
 
@@ -108,19 +122,17 @@
 
       <audio controls>
         <source src="gaga_how_bad_do_u_want_me.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
       </audio>
-    </div>    
+    </div>
 
     <div class="song">
       <p class="song-title">Die With A Smile</p>
 
       <audio controls>
         <source src="gaga_die_with_a_smile.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
       </audio>
     </div>
-    
+
   </div>
 
 </body>
