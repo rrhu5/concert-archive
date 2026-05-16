@@ -35,22 +35,19 @@
       margin-bottom: 20px;
     }
 
-    a {
-      color: #3b82c4;
-      text-decoration: none;
+    .song {
+      margin-top: 15px;
+    }
+
+    .song-title {
       font-size: 18px;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    li {
+      font-weight: bold;
       margin-bottom: 10px;
+    }
+
+    audio {
+      width: 100%;
+      max-width: 500px;
     }
   </style>
 </head>
@@ -72,13 +69,14 @@
 
     <h3>Recordings</h3>
 
-    <ul>
-      <li>
-        <a href="https://google.com" target="_blank">
-          Speechless
-        </a>
-      </li>
-    </ul>
+    <div class="song">
+      <p class="song-title">Speechless</p>
+
+      <audio controls>
+        <source src="gaga_speechless.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
   </div>
 
 </body>
